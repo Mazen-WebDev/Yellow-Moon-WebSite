@@ -79,6 +79,11 @@ body {
         transition: .3s;
         margin-top: 15px;
     }
+    
+    .burger-icon:focus,
+    .burger-icon span {
+        box-shadow: none;
+    }
 
     .burger-icon.active span:nth-child(2) {
         opacity: 0;

@@ -257,7 +257,7 @@ body {
     transition: 0.3s;
 }
 
-.landing .container .landing-content .arrow i:hover {
+.landing .container .landing-content .arrow .animation:hover {
     animation: wiggle 2s linear infinite;
 }
 

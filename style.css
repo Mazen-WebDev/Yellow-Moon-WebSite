@@ -710,14 +710,17 @@ body {
 }
 
 .footer .container .footer-content .social-logos img {
+    color: white;
     background-color: white;
     border: solid 1px transparent;
     width: 25px;
     cursor: pointer;
     transition: 0.3s;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
-.footer .container .footer-content .social-logos i:hover {
+.footer .container .footer-content .social-logos img:hover {
     border: solid 1px var(--main-color);
     background-color: var(--main-color);
 }

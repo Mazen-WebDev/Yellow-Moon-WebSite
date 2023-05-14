@@ -478,7 +478,7 @@ body {
     transition: 0.3s;
 }
 
-.portfolio .container .arrow i:hover {
+.portfolio .container .arrow .animation:hover {
     animation: wiggle 2s linear infinite;
 }
 
